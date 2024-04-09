@@ -177,6 +177,7 @@ Commercial subscriptions for nginx are available on:
 [root@rpms ~]# systemctl start nginx
 
 ```
+```
 [root@rpms ~]# systemctl status nginx
 ● nginx.service - nginx - high performance web server
    Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)
@@ -193,6 +194,7 @@ Commercial subscriptions for nginx are available on:
 апр 09 23:06:23 rpms systemd[1]: Starting nginx - high performance web server...
 апр 09 23:06:23 rpms systemd[1]: nginx.service: Can't open PID file /var/run/nginx.pid (yet?) after start: No such file or directory
 апр 09 23:06:23 rpms systemd[1]: Started nginx - high performance web server.
+```
 ```
 Создать свой репозиторий и разместить там ранее собранный RPM
 
