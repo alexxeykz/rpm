@@ -228,7 +228,7 @@ HTTP-запрос отправлен. Ожидание ответа… 200 OK
 
 2024-04-09 23:16:12 (4,92 MB/s) - «/usr/share/nginx/html/repo/percona-orchestrator-3.2.6-2.el8.x86_64.rpm» сохранён [5222976/5222976]
 
-```
+
 Инициализируем репозиторий командой:
 ```
 [root@rpms ~]# createrepo /usr/share/nginx/html/repo/
